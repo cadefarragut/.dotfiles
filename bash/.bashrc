@@ -1,16 +1,11 @@
-#
-# ~/.bashrc
-#
-
-export EDITOR=vim
 
  #If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias grep='grep --color=auto'
-PS1='[\u@\h \W]\$ '
-export EDITOR=vim
-export VISUAL=vim
-export EDITOR=vim
-export VISUAL=vim
+
+#aliases
+source ~/.config/bash/.bash_aliases
+
+
+force_color_prompt=yes
+PS1="\[\e[38;5;13m\]\u\[\e[38;5;13m\]@\[\e[38;5;13m\]\h \[\e[38;5;14m\]\w \[\033[0m\]$ "
