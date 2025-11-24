@@ -45,7 +45,7 @@ button {
 }
 
 #workspaces button:hover {
-    color: rgba(162, 135, 255, 1);
+    color: rgba(200, 200, 200, 1);
     background: transparent;
     text-shadow: none;
 }
@@ -59,13 +59,13 @@ button {
 
 #workspaces button.active {
     color: black;
-    background: rgba(126, 88, 255, 1);
+    background: rgba(200, 200, 200, 1);
     font-weight: bold;
-    border: 0.1rem solid rgba(126, 88, 255, 1);
+    border: 0.1rem solid rgba(200, 200, 200, 1);
 }
 
 #workspaces button:hover {
-    border: 0.1rem solid rgba(162, 135, 255, 1);
+    border: 0.1rem solid rgba(200, 200, 200, 1);
 }
 
 #workspaces button.urgent {
