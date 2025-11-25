@@ -1,0 +1,8 @@
+font_family JetBrains Mono
+font_size 12
+
+
+# BEGIN_KITTY_THEME
+# Alucard
+include current-theme.conf
+# END_KITTY_THEME
